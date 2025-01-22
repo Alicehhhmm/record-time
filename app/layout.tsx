@@ -23,7 +23,7 @@ export default function RootLayout({
     return (
         <html lang='en' suppressHydrationWarning>
             <body className={cn(font.className, `antialiased`, `bg-white dark:bg-[#313333]`)}>
-                <ThemeProvider attribute='class' defaultTheme='light' enableSystem storageKey='discord-theme' disableTransitionOnChange>
+                <ThemeProvider attribute='class' defaultTheme='light' enableSystem storageKey='recordt-theme' disableTransitionOnChange>
                     {children}
                 </ThemeProvider>
             </body>
